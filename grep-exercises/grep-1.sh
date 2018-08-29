@@ -5,4 +5,4 @@
 # those 
 # The search should not be sensitive to case. Display only those lines of an input file, which contain the required words.
 
-grep -iE '\bthe\b|\bthat\b|\bthen\b|\bthose\b' grep-1_text.txt
+grep -iE '\bthe\b|\bthat\b|\bthen\b|\bthose\b' grep-1_input.txt
