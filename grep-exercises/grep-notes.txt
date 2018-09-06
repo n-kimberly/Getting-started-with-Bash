@@ -1,0 +1,14 @@
+helpful options
+-c to return count
+-n to display line numbers
+-v invert matching:
+-E extended grep
+
+helpful patterns
+\|$ to display full body, leaving matches highlighted
+^ at beginning, to look for matches at beg of line, just like in vim normal mode
+$ at end, to look for matches at end of line, just like in vim normal mode
+
+helpful notes
+() back reference: i.e. '\([0-9]\)\1' <- look for duplicate numbers
+no need to escape if -E
