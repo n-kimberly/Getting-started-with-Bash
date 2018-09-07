@@ -1,10 +1,26 @@
 #!/bin/bash
+# Prints information about files in current directory
+if [[ $# -ne 0 ]]; then
+	echo -e hey! this script doesn\'t take arguments! \\nIgnoring arguments...
+fi
+
 for filename in *; do
 	if [ -f $filename ]; then
 		echo ------------$filename is a regular file------------
-		ls -l $filename
-		file $filename
+		if [ -s $filename ]; then
+			echo this file is not empty
+			ls -l $filename
+			file $filename
+		else
+			echo this file is empty!
+		fi
+		if [ -x $filename ]; then
+			echo this file is also an executable :D
+		fi
 	else
 		echo ------------$filename is not a regular file------------
+		if [ -d $filename ]; then
+			echo this is a directory!
+		fi
 	fi
 done
