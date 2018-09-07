@@ -1,0 +1,6 @@
+# !/bin/sh
+
+# Print something, then run ls
+
+echo Running the ls command
+ls

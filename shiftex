@@ -1,0 +1,28 @@
+
+#!/bin/sh
+
+# You can shift through multiple arguments
+
+echo -e \\nthe script name is called with '$0': $0\\n
+
+echo you have provided '$#': $# number of arguments
+if [[ $# -ge 3 ]; then
+	echo this is correct number of arguments
+else
+	echo can you provide at least 3 arguments
+	echo run 'exit 2'
+	exit 2
+fi
+
+echo -e \\nprocess id is accessed with '$$': $$\\n
+
+echo our first arg is '$1': $1
+echo our second arg is '$2': $2
+echo -e \\nnow we shift twice\\n
+shift
+shift
+
+echo -e \\nour third argument can be called with '$1' instead of '$3': $1
+echo all remaining arguments after two shifts are '$@': $@
+
+echo -e \\nexit status '$?': $?
