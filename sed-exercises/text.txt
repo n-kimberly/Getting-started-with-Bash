@@ -1,0 +1,41 @@
+[36;1m1[0m [92;1mThe GNU General Public License v3.0 - GNU Project - Free Software ...[0m
+[93mhttps://www.gnu.org/licenses/gpl-3.0.en.html[0m
+[0mThe GNU General Public License is a free, copyleft license for software and ... Therefore, we have designed this version of the GPL to prohibit the practice for ...
+
+[0m[36;1m2[0m [92;1mLicenses - GNU Project - Free Software Foundation[0m
+[93mhttps://www.gnu.org/licenses/licenses.en.html[0m
+[0mJump to The GNU Affero General Public License - The GNU General Public License. The GNU General Public License is often called the GNU GPL for short; it is used by most GNU programs, and by more than half of all free software packages.
+
+[0m[36;1m3[0m [92;1mGNU General Public License - Wikipedia[0m
+[93mhttps://en.wikipedia.org/wiki/GNU_General_Public_License[0m
+[0mThe GNU General Public License (GNU GPL or GPL) is a widely used free software license, which guarantees end users the freedom to run, study, share and modify the software.
+
+[0m[36;1m4[0m [92;1mGNU General Public License | Open Source Initiative[0m
+[93mhttps://opensource.org/licenses/gpl-license[0m
+[0mGNU General Public License. This license, commonly known as the GPL, has two versions that are actively and widely used in many open source communities: GNU General Public License, version 2 (SPDX short identifier: GPL-2.0)
+
+[0m[36;1m5[0m [92;1mGNU General Public License version 2 | Open Source Initiative[0m
+[93mhttps://opensource.org/licenses/gpl-2.0.php[0m
+[0mThe licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to ...
+
+[0m[36;1m6[0m [92;1mWhat is GNU General Public License (GNU GPL or simply GPL ...[0m
+[93mhttps://searchdatacenter.techtarget.com/definition/GNU-General-Public-License-GNU-GPL-or-simply-GPL[0m
+[0mThe GNU General Public License, often shortened to GNU GPL (or simply GPL), lists terms and conditions for copying, modifying and distributing free software.
+
+[0m[36;1m7[0m [92;1mTop 10 GNU GPL License Questions Answered - WhiteSource[0m
+[93mhttps://resources.whitesourcesoftware.com/blog-whitesource/top-10-gpl-license-questions-answered[0m
+[0mJul 2, 2015 - GPL is the acronym for GNU's General Public License, and it's one of the most popular open source licenses. Richard Stallman created the ...
+
+[0m[36;1m8[0m [92;1mExplaining and Understanding the GNU General Public License (GPL ...[0m
+[93mhttps://torquemag.io/2016/11/explaining-and-understanding-the-gnu-general-public-license-gpl/[0m
+[0mNov 2, 2016 - Updated on November 2, 2016. It is common knowledge that WordPress is released under the terms of the GPL. However, time and again, ...
+
+[0m[36;1m9[0m [92;1mWhat is a General Public License (GPL)? - Definition from Techopedia[0m
+[93mhttps://www.techopedia.com/definition/3501/gnu-general-public-license-gpl[0m
+[0mThe GNU GPL allows users to change and share all versions of a program. GPL is provided through the Free Software Foundation, a nonprofit corporation that ...
+
+[0m[36;1m10[0m [92;1mGNU Public License | WordPress.org[0m
+[93mhttps://wordpress.org/about/license/[0m
+[0mThe license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation. A copy of the license is included with ...
+
+[0m[7mgoogler (? for help)[0m 
