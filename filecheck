@@ -1,0 +1,10 @@
+#!/bin/bash
+for filename in *; do
+	if [ -f $filename ]; then
+		echo ------------$filename is a regular file------------
+		ls -l $filename
+		file $filename
+	else
+		echo ------------$filename is not a regular file------------
+	fi
+done
