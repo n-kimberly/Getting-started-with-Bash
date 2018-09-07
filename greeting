@@ -1,0 +1,16 @@
+#!/bin/bash
+# Responds to whatever argument provided after
+if [[ $# = 1 ]]; then
+	case $1 in
+		hello)
+			echo Why hello there
+			;;
+		goodbye)
+			echo Oh okay, bye!
+			;;
+		*)
+			echo Sorry, I only speak hello \| goodbye
+	esac
+else 
+	echo Please provide only one argument
+fi
