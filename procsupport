@@ -1,0 +1,13 @@
+#!/bin/bash
+# Let's us know if our processor supports floating point units and memory type range registers
+
+FLAGS=$(grep ^flag /proc/cpuinfo | head -1)
+echo Your processor supports:
+for f in $FLAGS; do
+	case $f in
+		fpu)	echo floating point unit
+			;;
+		mtrr)	echo memory type range register
+			;;
+	esac
+done
