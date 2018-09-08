@@ -1,0 +1,25 @@
+# Start basic web server in desired directory
+
+$DIRECTORY = ~/Downloads
+
+cd $DIRECTORY
+python -m SimpleHTTPServer
+
+# -------------------------------------------------
+# tar through ssh
+
+$DIRECTORY = ~/Downloads
+$REMOTEHOST = nykimberly@10.0.0.75
+
+tar cBvf - $DIRECTORY | ssh $REMOTEHOST tar xBvpf -#
+
+# -------------------------------------------------
+# rync will move directory into (under) host directory
+
+$SRC = ~/Downloads
+$DEST = ~/Downloads
+$HOST = nykimberly@10.0.0.75
+
+rsync -nva $SRC $HOST:$DEST
+rsync -va $SRC $HOST:$DEST
+
