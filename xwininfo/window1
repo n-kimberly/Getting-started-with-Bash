@@ -1,0 +1,28 @@
+
+xwininfo: Please select the window about which you
+          would like information by clicking the
+          mouse in that window.
+
+xwininfo: Window id: 0x2e00007 "Home"
+
+  Absolute upper-left X:  24
+  Absolute upper-left Y:  79
+  Relative upper-left X:  24
+  Relative upper-left Y:  79
+  Width: 923
+  Height: 1052
+  Depth: 32
+  Visual: 0x1ad
+  Visual Class: TrueColor
+  Border width: 0
+  Class: InputOutput
+  Colormap: 0x2e00006 (not installed)
+  Bit Gravity State: NorthWestGravity
+  Window Gravity State: NorthWestGravity
+  Backing Store State: NotUseful
+  Save Under State: no
+  Map State: IsViewable
+  Override Redirect State: no
+  Corners:  +24+79  -973+79  -973-1029  +24-1029
+  -geometry 923x1052+24+79
+

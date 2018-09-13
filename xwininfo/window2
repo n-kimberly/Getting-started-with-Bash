@@ -1,0 +1,28 @@
+
+xwininfo: Please select the window about which you
+          would like information by clicking the
+          mouse in that window.
+
+xwininfo: Window id: 0x2400001 "fwunixref.pdf - Google Chrome"
+
+  Absolute upper-left X:  960
+  Absolute upper-left Y:  89
+  Relative upper-left X:  960
+  Relative upper-left Y:  89
+  Width: 960
+  Height: 810
+  Depth: 24
+  Visual: 0x21
+  Visual Class: TrueColor
+  Border width: 0
+  Class: InputOutput
+  Colormap: 0x20 (installed)
+  Bit Gravity State: NorthWestGravity
+  Window Gravity State: NorthWestGravity
+  Backing Store State: NotUseful
+  Save Under State: no
+  Map State: IsViewable
+  Override Redirect State: no
+  Corners:  +960+89  -0+89  -0-1261  +960-1261
+  -geometry 960x810-0+89
+
