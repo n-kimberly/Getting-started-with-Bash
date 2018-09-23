@@ -1,0 +1,1 @@
+sed -n '26,36 p' classes-ii.py | python3
