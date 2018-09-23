@@ -1,0 +1,4 @@
+#!/bin/bash
+# Highlight all occurrences of 'thy' as shown in the example below.
+
+sed -e 's/thy/{&}/ig'
