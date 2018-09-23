@@ -1,0 +1,41 @@
+Test charge.py:
+
+ We need to mock some "secrets" in our
+ environment. 
+ 
+    >>> import os
+    >>> os.environ = {"CREDIT_CARD": "4444 4444 4444 4444"}
+    >>> CREDIT_CARD = os.environ["CREDIT_CARD"]
+
+Import charge to test charge_card function:
+    >>> import charge
+    Charged 100 to 4444 4444 4444 4444
+
+
+Test greet.py:
+
+Since this is interactive, let's have a fake input handler:
+
+    >>> import sys
+    >>> def fake_input(prompt):
+    ...     sys.stdout.write(prompt)
+    ...     v = _inputs.pop(0)
+    ...     print(v)
+    ...     return v
+
+    >>> try:
+    ...     import __builtin__ as b    # Python 2
+    ... except ImportError:
+    ...     import builtins as b       # Python 3
+
+    >>> b.raw_input = b.input = fake_input
+
+Making a fake answer:
+
+    >>> _inputs = ["Balloonicorn", "Unicorn"]
+
+    >>> import greet
+    First Name? Balloonicorn
+    Last Name? Unicorn
+    Hi Balloonicorn Unicorn
+
