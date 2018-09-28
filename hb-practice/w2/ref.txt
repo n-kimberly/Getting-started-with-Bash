@@ -1,1 +1,8 @@
 sed -n '26,36 p' classes-ii.py | python3
+echo '#!/bin/zsh' > shtools
+
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+
+echo "import random\nprint(random.randint(10))" | tee pytools.py
+sed -n 1,2p pytools.py | sed 's/10/1,10/' | tee pytools.py
+
